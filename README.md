@@ -37,6 +37,9 @@ Network config DHCP:
 
 https://xcp-ng.org
 
+Ubuntu Cloud Init Images: \
+https://cloud-images.ubuntu.com/
+
 Install VM Image: \
 https://github.com/ronivay/XenOrchestraInstallerUpdater#image
 
