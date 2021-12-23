@@ -5,8 +5,32 @@ xsconsole
 ```
 
 
+User config:
+```yaml
+#cloud-config
+users:
+  - name: ubuntu
+    ssh_authorized_keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOxN5VcvopmXS7fAA7ESjGYHNuAIWE7d0Fyj9Lh8lVZu shubhamtatvamasi@gmail.com
+    sudo: ALL=(ALL) NOPASSWD:ALL
+    groups: sudo
+    shell: /bin/bash
+```
 
 
+Network config DHCP:
+```yaml
+#network:
+  version: 2
+  ethernets:
+    eth0:
+      dhcp4: true
+      nameservers:
+        addresses:
+        - 8.8.8.8
+        - 8.8.4.4
+        search: []
+```
 
 
 
