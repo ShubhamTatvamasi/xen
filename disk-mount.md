@@ -12,5 +12,5 @@ sudo mkfs -t ext4 /dev/xvdc
 
 mount disk:
 ```bash
-sudo mount /dev/xvdc /mnt/my-disk
+sudo mount /dev/xvdc /mnt/
 ```
