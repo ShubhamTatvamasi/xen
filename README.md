@@ -8,13 +8,15 @@ User Config
 ```yaml
 #cloud-config
 users:
-  - name: ubuntu
-    plain_text_passwd: 'ubuntu'
-    sudo: ALL=(ALL) NOPASSWD:ALL
-    groups: sudo
-    shell: /bin/bash
-    lock_passwd: false
+- name: ubuntu
+  plain_text_passwd: 'ubuntu'
+  sudo: ALL=(ALL) NOPASSWD:ALL
+  groups: sudo
+  shell: /bin/bash
+  lock_passwd: false
 ssh_pwauth: True
+packages:
+- xe-guest-utilities
 ```
 
 Network Config:
