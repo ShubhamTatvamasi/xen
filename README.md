@@ -10,7 +10,7 @@ yum update
 ```
 ---
 
-User Config
+Ubuntu User Config
 ```yaml
 #cloud-config
 users:
@@ -25,7 +25,7 @@ packages:
 - xe-guest-utilities
 ```
 
-Network Config:
+Ubuntu Network Config:
 ```yaml
 #network:
   version: 2
