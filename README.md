@@ -4,6 +4,12 @@
 xsconsole
 ```
 
+Update packages after install:
+```bash
+yum update
+```
+---
+
 User Config
 ```yaml
 #cloud-config
