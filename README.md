@@ -27,7 +27,7 @@ packages:
 
 Ubuntu Network Config
 ```yaml
-#network:
+#network
   version: 2
   ethernets:
     eth0:
