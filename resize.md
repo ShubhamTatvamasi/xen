@@ -12,15 +12,19 @@ sgdisk -e /dev/vda
 
 Now resize /dev/vda3 partition:
 ```bash
-sudo fdisk /dev/vda
+fdisk /dev/vda
 ```
-> take care of start and end sector:
 
-Change the type to `Linux LVM` of partition 3:
+Change partition sector:
 ```
-t
+p -> see old values
+d -> delete 3 number drive
+n -> create new drive with 3 number
+t -> change type to Linux LVM it was 31 number for me.
+p -> see new values
+w -> save changes
 ```
-> it was 31 for `Linux LVM` for me.
+> `reboot` after this
 
 ---
 
