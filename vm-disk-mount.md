@@ -1,4 +1,4 @@
-# disk mount
+# VM disk mount
 
 check disk file type:
 ```bash
