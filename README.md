@@ -25,7 +25,7 @@ packages:
 - xe-guest-utilities
 ```
 
-Ubuntu Network Config:
+Ubuntu Network Config
 ```yaml
 #network:
   version: 2
