@@ -6,7 +6,7 @@ xsconsole
 
 Update packages after install:
 ```bash
-yum update
+yum update -y
 ```
 ---
 
