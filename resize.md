@@ -28,6 +28,11 @@ w -> save changes
 
 ---
 
+resize phisical volume:
+```bash
+pvresize /dev/vda3
+```
+
 Check your list of storage:
 ```bash
 xe sr-list
@@ -51,10 +56,7 @@ lvextend --resizefs -l +100%FREE /dev/mapper/XSLocalEXT--ca2e197d--1c66--29cc--9
 
 
 
-resize phisical volume:
-```bash
-pvresize /dev/vda3
-```
+
 
 https://community.spiceworks.com/how_to/32679-easily-resize-a-xenserver-storage-repository
 
