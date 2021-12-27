@@ -20,7 +20,7 @@ Change the type to `Linux LVM` of partition 3:
 ```
 t
 ```
-> # it was 31 for `Linux LVM` for me.
+> it was 31 for `Linux LVM` for me.
 
 ---
 
