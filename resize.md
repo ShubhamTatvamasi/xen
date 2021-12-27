@@ -20,7 +20,7 @@ Change partition sector:
 p -> see old values
 d -> delete 3 number drive
 n -> create new drive with 3 number with same start sector
-t -> change type to Linux LVM it was 31 number for me.
+t -> change drive 3 type to Linux LVM it was 31 number for me.
 p -> see new values
 w -> save changes
 ```
