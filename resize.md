@@ -1,5 +1,15 @@
 # resize
 
+Check if your file system has been changed to GPT:
+```bash
+fdisk -l /dev/vda
+```
+
+Fix GPT:
+```bash
+sgdisk -e /dev/vda
+```
+
 Check your list of storage:
 ```bash
 xe sr-list
