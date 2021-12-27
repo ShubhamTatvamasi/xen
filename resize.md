@@ -10,6 +10,20 @@ Fix GPT:
 sgdisk -e /dev/vda
 ```
 
+Now resize /dev/vda3 partition:
+```bash
+sudo fdisk /dev/vda
+```
+> take care of start and end sector:
+
+Change the type to `Linux LVM` of partition 3:
+```
+t
+```
+> # it was 31 for `Linux LVM` for me.
+
+---
+
 Check your list of storage:
 ```bash
 xe sr-list
