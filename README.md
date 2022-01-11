@@ -40,6 +40,26 @@ Ubuntu Network Config
         - 8.8.4.4
 ```
 
+Magma Orchestrator Network Config
+```yaml
+#network
+  version: 2
+  ethernets:
+    eth0:
+      addresses:
+      - 192.168.5.10/24
+      - 192.168.5.11/24
+      - 192.168.5.12/24
+      - 192.168.5.13/24
+      - 192.168.5.14/24
+      gateway4: 192.168.5.1
+      nameservers:
+        addresses:
+        - 8.8.8.8
+        - 8.8.4.4
+```
+
+
 ---
 
 User config:
