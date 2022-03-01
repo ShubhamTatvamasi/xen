@@ -89,8 +89,26 @@ Network config DHCP:
         search: []
 ```
 
+### Update Xen Orchestra
 
+SSH into Xen Orchestra VM:
+```bash
+ssh xo@192.168.5.3
+```
 
+Clone the XenOrchestraInstallerUpdater repo:
+```bash
+git clone https://github.com/ronivay/XenOrchestraInstallerUpdater.git
+cd XenOrchestraInstallerUpdater
+git pull
+```
+
+Update Xen Orchestra:
+```bash
+sudo ./xo-install.sh --update
+```
+
+---
 
 https://xcp-ng.org
 
