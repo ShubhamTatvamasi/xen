@@ -110,6 +110,16 @@ sudo ./xo-install.sh --update
 
 ---
 
+Jammy plugin:
+```bash
+sudo su
+sudo echo "deb http://cz.archive.ubuntu.com/ubuntu focal main" > /etc/apt/sources.list.d/xen.list
+sudo apt update
+sudo apt install xe-guest-utilities
+```
+
+---
+
 https://xcp-ng.org
 
 Ubuntu Cloud Init Images: \
